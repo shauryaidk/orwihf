@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Recipes | Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">🍴 Delicious Recipes</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#featured">Featured Recipes</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1>Cook Like a Pro in Your Dorm</h1>
+            <p>Discover quick, easy, and satisfying meals designed for busy students.</p>
+            
+            <div class="search-bar">
+                <input type="text" placeholder="Search for recipes, ingredients, or cravings...">
+                <button type="button">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container" id="featured">
+        <div class="section-header">
+            <h2>Featured Recipes</h2>
+            <p class="subtitle">Hand-picked favorites to fuel your study sessions.</p>
+        </div>
+
+        <div class="categories">
+            <span class="category-pill active">All</span>
+            <span class="category-pill">Veg</span>
+            <span class="category-pill">Non-Veg</span>
+            <span class="category-pill">Drinks</span>
+            <span class="category-pill">Desserts</span>
+        </div>
+
+        <div class="recipe-grid">
+            
+            <a href="recipe1.html" class="recipe-card fade-in" style="animation-delay: 0.1s;">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=600&q=80" alt="Masala Noodles">
+                    <span class="badge veg">Veg</span>
+                </div>
+                <div class="card-content">
+                    <h3>10-Minute Dorm Noodles</h3>
+                    <div class="meta-tags">
+                        <span>⏱️ 10 mins</span>
+                        <span>🟢 Easy</span>
+                    </div>
+                    <p>The ultimate late-night study snack upgraded with extra spices.</p>
+                </div>
+            </a>
+
+            <a href="recipe2.html" class="recipe-card fade-in" style="animation-delay: 0.2s;">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=600&q=80" alt="Masala Chai">
+                    <span class="badge drink">Drink</span>
+                </div>
+                <div class="card-content">
+                    <h3>New Delhi Style Chai</h3>
+                    <div class="meta-tags">
+                        <span>⏱️ 15 mins</span>
+                        <span>🟡 Medium</span>
+                    </div>
+                    <p>Authentic, strong street-style tea to keep you energized.</p>
+                </div>
+            </a>
+
+            <a href="recipe3.html" class="recipe-card fade-in" style="animation-delay: 0.3s;">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=600&q=80" alt="Chicken Wrap">
+                    <span class="badge non-veg">Non-Veg</span>
+                </div>
+                <div class="card-content">
+                    <h3>Quick Chicken Wrap</h3>
+                    <div class="meta-tags">
+                        <span>⏱️ 20 mins</span>
+                        <span>🟡 Medium</span>
+                    </div>
+                    <p>A protein-packed meal perfect for a quick lunch between classes.</p>
+                </div>
+            </a>
+
+            <a href="recipe4.html" class="recipe-card fade-in" style="animation-delay: 0.4s;">
+                <div class="card-image">
+                    <img src="https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Espresso">
+                    <span class="badge drink">Drink</span>
+                </div>
+                <div class="card-content">
+                    <h3>Exam Prep Espresso</h3>
+                    <div class="meta-tags">
+                        <span>⏱️ 5 mins</span>
+                        <span>🟢 Easy</span>
+                    </div>
+                    <p>A strong, simple espresso brew for absolute focus.</p>
+                </div>
+            </a>
+
+            <a href="recipe5.html" class="recipe-card fade-in" style="animation-delay: 0.5s;">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80" alt="Cookies">
+                    <span class="badge dessert">Dessert</span>
+                </div>
+                <div class="card-content">
+                    <h3>Classic Cookies</h3>
+                    <div class="meta-tags">
+                        <span>⏱️ 45 mins</span>
+                        <span>🔴 Hard</span>
+                    </div>
+                    <p>Sweet comfort food for when you finally finish that project.</p>
+                </div>
+            </a>
+
+        </div>
+    </main>
+
+    <section class="container" id="about" style="background-color: var(--white); border-radius: var(--border-radius); box-shadow: var(--shadow); margin-bottom: 4rem; padding: 3rem 2rem; text-align: center;">
+        <div class="section-header">
+            <h2>About Delicious Recipes</h2>
+            <p class="subtitle">Your go-to guide for dorm-friendly cooking.</p>
+        </div>
+        <div class="about-content" style="max-width: 800px; margin: 0 auto; color: var(--text-light);">
+            <p>Welcome to Delicious Recipes! This website was built from scratch using pure HTML and CSS as part of a Web Development assignment. The goal? To prove that you don't need complex code to create a beautiful, responsive, and mouth-watering recipe directory.</p>
+            <br>
+            <p>Every recipe featured here is hand-picked for busy college students. Whether you are prepping for the JEE, pulling an all-nighter for an exam, or just need a quick bite between classes, these recipes use minimal ingredients and simple steps to get you fed fast.</p>
+            <br>
+            <p><strong>Happy Cooking!</strong></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Delicious Recipes | Coded with HTML & CSS by Shaurya Singh</p>
+    </footer>
+</body>
+</html>
